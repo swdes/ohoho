@@ -1,24 +1,31 @@
-# ohoho
+# Ohoho
 
-## Project setup
-```
-yarn install
-```
+## Install
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+- install node 14
 
-### Compiles and minifies for production
-```
-yarn build
-```
+  `nvm use`
 
-### Lints and fixes files
-```
-yarn lint
-```
+- Firebase cli
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+  `npm install -g firebase-tools`
+
+## Run locally
+
+- from project root
+
+  `firebase serve`
+
+- from `./view`
+
+  - you may need to adjust `./view/src/config.js` to point to the correct backend url
+
+  - start the react build and watch
+
+    `yarn start`
+
+Then you can access the app on http://localhost:3000
+
+## Deploy on production
+
+`firebase deploy`
