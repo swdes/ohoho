@@ -24,3 +24,5 @@ pnpm-debug.log*
 
 # Firebase credentials
 functions/util/config.js
+
+firebase-debug.log
