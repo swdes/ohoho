@@ -1,5 +1,5 @@
 module.exports = {
-    apiKey: "AIzaSyDNiA9BpRM7Ap0Cz7ablHtHj3S8NZI02YI",
+    apiKey: "xxx",
     authDomain: "ohoho-20b14.firebaseapp.com",
     projectId: "ohoho-20b14",
     storageBucket: "ohoho-20b14.appspot.com",
